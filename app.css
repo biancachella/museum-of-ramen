@@ -1,0 +1,105 @@
+body {
+    background: #121212;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+    color: #FFB200;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.icon:hover {
+    fill: #f7d145;
+    fill-opacity: 1.0;
+}
+
+#mainNavbar .navbar-brand {
+    color: #FFB200;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #FFB200;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup .normal {
+    color: red;
+}
+
+/* HOVER EFECTS CSS ONLY*/
+
+.museum1:hover,
+.museum2:hover,
+.museum3:hover,
+.museum4:hover,
+.museum5:hover,
+.museum6:hover,
+.museum7:hover,
+.museum8:hover,
+.museum9:hover,
+.museum10:hover,
+.museum11:hover,
+
+.of1:hover,
+.of2:hover,
+.of3:hover,
+.of4:hover,
+.of5:hover,
+.of6:hover,
+.of7:hover,
+.of8:hover,
+.of9:hover,
+.of10:hover,
+.of11:hover,
+
+.ramen1:hover,
+.ramen2:hover,
+.ramen3:hover,
+.ramen4:hover,
+.ramen5:hover,
+.ramen6:hover,
+.ramen7:hover,
+.ramen8:hover,
+.ramen9:hover,
+.ramen10:hover,
+.ramen11:hover
+
+{
+    color: #FFB200;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background-color: #121212;
+    opacity: 1.0;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
